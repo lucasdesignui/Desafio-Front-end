@@ -5,7 +5,7 @@
 ### Como funciona o desafio
 Você deve reproduzir o layout para Desktop e Mobile respeitando padrões da Web semântica e performance.
 
-### Qual teconogia usar?
+### Qual tecnogia usar?
 O desafio deve ser feito com as tecnologias Web abertas HTML, CSS e Javascript, mas não limitamos a tecnologia A, B ou C relacionadas à Frameworks ou Bibliotecas, mas avaliaremos os padrões de código e técnicas usadas no teste.
 
 ### Assets ###
