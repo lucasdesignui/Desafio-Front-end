@@ -9,7 +9,7 @@
 * O desafio deve ser feito com as tecnologias Web abertas HTML, CSS e Javascript, mas não limitamos a tecnologia A, B ou C relacionadas à Frameworks ou Bibliotecas, mas avaliaremos os padrões de código e técnicas usadas no teste.
 
 ### Assets ###
-* Os assets como Brand e Ícones estão [aqui](./assets/).
+* Os assets como Brand e Ícones estão [aqui](./asset/).
 * Fontes: [Lato](https://fonts.google.com/specimen/Lato)
 * Handoff:[Invision](https://invis.io/5KTYJ1EVUH4#/384330539_Home_Owli) 
 
