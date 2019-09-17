@@ -1,10 +1,14 @@
 <img width="1039" alt="rename_screenshot" src="http://owli.com.br/wp-content/themes/thewriter/assets/images/logo-07.png">
 
 ## Repositories
-teste **negrito**. 
+teste **negrito**.
+
 teste link [Markdown language](https://guides.github.com/features/mastering-markdown/),
+
 teste `hello-world`
+
 teste **_italico_**
+
 :tada: teste teste :tada:
 
 
