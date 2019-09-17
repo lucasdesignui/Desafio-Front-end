@@ -3,8 +3,6 @@
 ## Estamos quase lá!
 
 ### Como funciona o desafio
-Se você chegou até aqui é por que tem o perfil necessario para mudar o mercado imobiliário. Vamos lá!
-
 Você deve reproduzir o layout para Desktop e Mobile respeitando padrões da Web semântica e performance.
 
 ### Qual teconogia usar?
@@ -12,19 +10,12 @@ O desafio deve ser feito com as tecnologias Web abertas HTML, CSS e Javascript, 
 
 ### Assets ###
 Os assets como Brand e Ícones estão aqui.
+
 Fontes: [Lato](https://fonts.google.com/specimen/Lato)
+
 Handoff: 
 
 ### BÔNUS + ###
 Não é requisito obrigatório mas ficaríamos muito felizes em ver o teste com as bibliotecas de UI e Frameworks hypes do mercado como: Reactjs, @Angualar+2, Vue.js, Gatsby.js, Next.js.
 
-
-
-**negrito**.
-
-
-teste `hello-world`
-
-teste **_italico_**
-
-:tada: teste teste :tada:
+**:rocket: Boa sorte! :rocket:
