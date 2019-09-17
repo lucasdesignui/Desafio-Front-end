@@ -1,4 +1,4 @@
-<img width="" alt="rename_screenshot" src="http://owli.com.br/wp-content/themes/thewriter/assets/images/logo-07.png">
+<img width="300" alt="rename_screenshot" src="http://owli.com.br/wp-content/themes/thewriter/assets/images/logo-07.png">
 
 ## Repositories
 teste **negrito**.
