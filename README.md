@@ -18,4 +18,4 @@ Handoff:
 ### BÔNUS + ###
 Não é requisito obrigatório mas ficaríamos muito felizes em ver o teste com as bibliotecas de UI e Frameworks hypes do mercado como: Reactjs, @Angualar+2, Vue.js, Gatsby.js, Next.js.
 
-:rocket: Boa sorte! :rocket:
+**Boa sorte!** :rocket:
