@@ -13,7 +13,7 @@
 * Fontes: [Lato](https://fonts.google.com/specimen/Lato)
 * Handoff:[Invision](https://invis.io/5KTYJ1EVUH4#/384330539_Home_Owli) 
 
-### BÔNUS + ###
+### Bônus + ###
 * Não é requisito obrigatório mas ficaríamos muito felizes em ver o teste com as bibliotecas de UI e Frameworks hypes do mercado como: Reactjs, @Angualar+2, Vue.js, Gatsby.js, Next.js.
 
 :rocket: Boa sorte! :rocket:
