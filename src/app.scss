@@ -1,0 +1,19 @@
+@charset 'UTF-8';
+
+//Only materialize grid
+@import '~materialize-css/sass/components/color-variables';
+@import '~materialize-css/sass/components/variables';
+@import '~materialize-css/sass/components/grid';
+// @import '../node_modules/materialize-css/sass/components/grid.scss';
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+#root-react-app {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
