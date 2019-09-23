@@ -1,75 +1,6 @@
 @charset 'UTF-8';
 
-section#secSubscribe {
-
-    header#headerOwli {
-
-        nav.menuOptions {
-            display: flex;
-            flex: 1;
-            justify-content: space-between;
-
-            a#brandOwliHome {
-
-                & #imgOwliBrand {
-                }
-
-            }
-
-            ol.homeOptions, ul.loginBuyOptions {
-                list-style-type: none;
-                margin: 0;
-                padding: 0;
-                display: flex;
-                align-items: center;
-
-                & li {
-                    display: inline-block;
-                    margin: 0 auto;
-                    flex: 1;
-                    text-align: center;
-                }
-
-                li.itemBuy {
-                    height: 100%;
-
-                    a {
-                        height: 100%;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        border: 1.5px solid white;
-                        border-radius: 4px;
-                        position: relative;
-
-                        &::after{
-                            content: '';
-                            height: 100%;
-                            width: 50px;
-                            right: 0;
-                            position: absolute;
-                            background-image: url('~assets/svg/arrow-right-black-small.svg');
-                            background-repeat: no-repeat;
-                            background-position: center;
-                            filter: invert(1);
-                        }
-                    }
-                }
-
-                a {
-                    text-decoration: none;
-                    color: white;
-                    display: block;
-                }
-            }
-
-            li.loginBuyOptions {
-
-            }
-
-        }
-    }
-}
+// section#secSubscribe {}
 
 /* Mobile devices */
 @media only screen and (max-width: 600px){}
@@ -99,41 +30,6 @@ section#secSubscribe {
         height: 100vh;
         display: flex;
         flex-direction: column;
-    
-        header#headerOwli {
-            flex: 0 0 95px;
-            max-height: 100px;
-            display: flex;
-            align-items: flex-end;
-    
-            nav.menuOptions {
-    
-                a#brandOwliHome {
-                    width: 100px;
-                    height: 45px;
-                    display: block;
-                    flex: 0.15;
-        
-                    & #imgOwliBrand {
-                        height: 100%;
-                        width: 100%;
-                    }
-        
-                }
-    
-                ol.homeOptions {
-                    flex: 0.4;
-                }
-
-                ul.loginBuyOptions {
-                   flex: 0.3;
-                }
-
-                & li {
-                    font-size: 1.3rem;
-                }
-            }
-        }
     }
 
 }
