@@ -1,16 +1,27 @@
 import React, { Component } from 'react';
 
-const InputText = (type, labelText, icon) => 
-    <input type={type}
-        value={labelText}
-        data-icon={icon}/>;
+import './registrationForm.scss';
+
+const InputText = ({type, labelText, icon}) => 
+    <input 
+        type={type}
+        placeholder={labelText}
+        data-icon={icon}
+        className="inputFrmRegistration"/>;
 
 class RegistrationForm extends Component {
     render() {
         return (
-            <form>
+            <form id="formRegistration">
                 <h2 id="registerFormTitle">Cadastre sua imobiliária</h2>
-                <InputText />
+
+                <InputText type="text" labelText="Nome" icon=""/>
+
+                <InputText type="email" labelText="Email" icon=""/>
+                
+                <InputText type="phone" labelText="Telefone" icon=""/>
+
+                <button className="submitRegistration" type="submit">Enviar</button>
             </form>
         );
     }

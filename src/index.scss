@@ -14,11 +14,9 @@ body {
 	overflow: hidden;
 	background-color: rgba(17,159,229,1);
 	background-image: linear-gradient(to bottom right, #12a0e6, #76d3ff);
-
 	// react default reset
 	margin: 0;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
-	"Droid Sans", "Helvetica Neue", sans-serif;
+	font-family: 'latoregular', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -33,4 +31,9 @@ code {
 	height: 100%;
 	width: 100%;
 	overflow-x: hidden;
+}
+
+button {
+	outline: none;
+	border: none;
 }

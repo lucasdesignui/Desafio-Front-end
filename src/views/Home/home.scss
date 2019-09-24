@@ -1,6 +1,34 @@
 @charset 'UTF-8';
 
-// section#secSubscribe {}
+section#secSubscribe {
+
+    #rowSubscribeMain {
+        display: flex;
+        align-items: center;
+
+        h1#titleHomePage {
+            margin: 0;
+            color: white;
+            font-family: 'latobold';
+        }
+
+        h2#subtitleHomePage {
+            margin: 0;
+            color: white;
+            font-family: 'latohairline';
+        }
+
+        button#btnBePart {
+            color: black;
+            background-color: white;
+            border-radius: 6px;
+            width: 225px;
+            height: 50px;
+            font-size: 1.2rem;
+            font-family: 'latobold'
+        }
+    }
+}
 
 /* Mobile devices */
 @media only screen and (max-width: 600px){}
@@ -30,6 +58,19 @@
         height: 100vh;
         display: flex;
         flex-direction: column;
+
+        #rowSubscribeMain {
+            flex: 1 0 calc(100% - 95px);
+            margin: 0 0 20px 0;
+
+            h1#titleHomePage {
+                font-size: 4rem;
+            }
+
+            h2#subtitleHomePage {
+                font-size: 1.9rem;
+            }
+        }
     }
 
 }
