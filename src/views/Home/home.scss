@@ -12,7 +12,7 @@ section#secSubscribe {
             font-family: 'latobold';
         }
 
-        h2#subtitleHomePage {
+        h3#subtitleHomePage {
             margin: 0;
             color: white;
             font-family: 'latohairline';
@@ -30,6 +30,10 @@ section#secSubscribe {
     }
 }
 
+section#meetOurResources {
+    background-color: white;
+}
+
 /* Mobile devices */
 @media only screen and (max-width: 600px){}
 
@@ -38,12 +42,6 @@ section#secSubscribe {
 
 /* Tablet devices only */
 @media only screen and (min-width: 601px) and (max-width: 992px){}
-
-@media only screen and (min-width: 992px) {
-	#homeContainer {
-		width: 80%;
-	}
-}
 
 /* Desktop devices or larger */
 @media only screen and (min-width: 993px) {}
@@ -67,7 +65,7 @@ section#secSubscribe {
                 font-size: 4rem;
             }
 
-            h2#subtitleHomePage {
+            h3#subtitleHomePage {
                 font-size: 1.9rem;
             }
         }

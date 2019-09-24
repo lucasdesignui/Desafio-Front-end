@@ -7,21 +7,31 @@ class Home extends Component {
 
     render() {
         return (
-            <div className="container containerOwli" id="homeContainer">
+            <div className="container-fluid containerOwli" id="homeContainer">
 
-                <section id="secSubscribe">
+                <section className="container" id="secSubscribe">
                     <Header />
 
                     <div className="row" id="rowSubscribeMain">
 
                         <div className="col xl7">
                             <h1 id="titleHomePage">A nova área do cliente</h1>
-                            <h2 id="subtitleHomePage">Aplicativo para locatários e proprietários de imóveis</h2>
+                            <h3 id="subtitleHomePage">Aplicativo para locatários e proprietários de imóveis</h3 >
                             <button id="btnBePart">Quero fazer parte</button>
                         </div>
                         <div className="col xl5">
                             <RegistrationForm />
                         </div>
+                    </div>
+                </section>
+
+                <section className="container" id="meetOurResources">
+                    <div id="row" className="rowMeetOurResources">
+                        <div className="col xl6">
+                            <h2 id="meetResourcesTitle">Conheça todos os nossos recursos</h2>
+                        </div>
+                        <div className="col xl3"></div>
+                        <div className="col xl3"></div>
                     </div>
                 </section>
             </div>
