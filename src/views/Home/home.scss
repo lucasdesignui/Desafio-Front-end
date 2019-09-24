@@ -3,8 +3,6 @@
 section#secSubscribe {
 
     #rowSubscribeMain {
-        display: flex;
-        align-items: center;
 
         h1#titleHomePage {
             margin: 0;
@@ -58,8 +56,9 @@ section#meetOurResources {
         flex-direction: column;
 
         #rowSubscribeMain {
+            display: flex;
+            align-items: center;
             flex: 1 0 calc(100% - 95px);
-            margin: 0 0 20px 0;
 
             h1#titleHomePage {
                 font-size: 4rem;

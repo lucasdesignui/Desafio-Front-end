@@ -7,10 +7,13 @@ class Home extends Component {
 
     render() {
         return (
-            <div className="container-fluid containerOwli" id="homeContainer">
-
+            <>
                 <section className="container" id="secSubscribe">
-                    <Header />
+                    <div className="row">
+                        <div className="col s12">
+                            <Header />
+                        </div>
+                    </div>
 
                     <div className="row" id="rowSubscribeMain">
 
@@ -34,8 +37,7 @@ class Home extends Component {
                         <div className="col xl3"></div>
                     </div>
                 </section>
-            </div>
-
+            </>
         );
     }
 }
