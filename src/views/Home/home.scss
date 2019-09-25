@@ -1,4 +1,5 @@
 @charset 'UTF-8';
+@import '~assets/scss/__vars';
 
 #containerBgOwli {
     width: 100%;
@@ -41,32 +42,42 @@ section#meetOurResources {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        height: 410px;
+        margin: 90px 0 150px 0;
 
         h2#meetResourcesTitle {
             margin: 0;
             font-family: 'latoregular';
         }
 
-        dl#resourceList {
+        dl.resourceList {
             margin: 0;
             display: flex;
             justify-content: center;
 
-            .resourceWraper {
+            .itemResource {
                 display: flex;
                 flex-direction: column;
-                justify-content: center;
+                justify-content: space-between;
                 align-items: center;
+                flex: 1;
 
                 .resourceIcon {
                     height: 75px;
                     width: 75px;
                 }
+
+                .resourceName {
+                    font-family: 'latobold';
+                    font-size: 1.8rem;
+                }
+
             }
 
             dd.resourceDescription {
                 margin: 0;
+                color: $greyText;
+                font-size: 1.2rem;
+                font-family: 'latoregular';
             }
         }
 
@@ -130,11 +141,14 @@ section#meetOurResources {
             flex: 0.5;
         }
 
-        dl#resourceList {
+        dl.resourceList {
             flex: 0.5;
+
+            .itemResource {
+                height: 160px;
+            }
         }
     
-        margin-bottom: 100px;
     }
 
 }

@@ -5,14 +5,20 @@ import RegistrationForm from 'components/RegistrationForm/RegistrationForm.jsx';
 import economyIcon from 'assets/svg/economy.svg';
 import centralizedIcon from 'assets/svg/centralized.svg';
 
-const Resource = (props) => {
+const ResourcesList = (props) => {
 
     return (
-        <div className="col s12 resourceWraper">
-            <img className="resourceIcon" src={props.imgIcon} alt={props.resourceName + ' icon'}/>
-            <dt className="resourceName">{props.resourceName}</dt>
-            <dd className="resourceDescription">{props.resourceDescription}</dd>
-        </div>
+        <dl className="resourceList">
+            {
+                props.resources.map((resource) => 
+                    <div className="itemResource">
+                        <img className="resourceIcon" src={resource.imgIcon} alt={resource.resourceName + ' icon'}/>
+                        <dt className="resourceName">{resource.resourceName}</dt>
+                        <dd className="resourceDescription">{resource.resourceDescription}</dd>
+                    </div>
+                )
+            }
+        </dl>
     );
 
 };
@@ -21,7 +27,19 @@ class Home extends Component {
 
     render() {
 
-        const lorem = 'lorem ipsum dolor sit amet';
+        const lorem = 'Lorem ipsum dolor sit amet';
+        const resources = [
+            {
+                imgIcon: economyIcon,
+                resourceDescription: lorem,
+                resourceName: 'Economia'
+            },
+            {
+                imgIcon: centralizedIcon,
+                resourceDescription: lorem,
+                resourceName: 'Centralizado'
+            }
+        ];
 
         return (
             <>
@@ -53,10 +71,13 @@ class Home extends Component {
                             <div>os nossos recursos</div>
                         </h2>
 
-                        <dl id="resourceList">
-                            <Resource imgIcon={economyIcon} resourceDescription={lorem} resourceName='Economia' />
-                            <Resource imgIcon={centralizedIcon} resourceDescription={lorem} resourceName='Centralizado' />
-                        </dl>
+                        <ResourcesList resources={resources} />
+                    </div>
+                </section>
+                <section className="container" id="secPlans">
+                    <div className="row rowPlans">
+                    </div>
+                    <div className="row rowCarousel">
                     </div>
                 </section>
             </>
