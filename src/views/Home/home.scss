@@ -1,5 +1,11 @@
 @charset 'UTF-8';
 
+#containerBgOwli {
+    width: 100%;
+    background-color: rgba(17,159,229,1);
+	background-image: linear-gradient(to bottom right, #12a0e6, #76d3ff);
+}
+
 section#secSubscribe {
 
     #rowSubscribeMain {
@@ -30,6 +36,42 @@ section#secSubscribe {
 
 section#meetOurResources {
     background-color: white;
+
+    #rowMeetOurResources {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 410px;
+
+        h2#meetResourcesTitle {
+            margin: 0;
+            font-family: 'latoregular';
+        }
+
+        dl#resourceList {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+
+            .resourceWraper {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .resourceIcon {
+                    height: 75px;
+                    width: 75px;
+                }
+            }
+
+            dd.resourceDescription {
+                margin: 0;
+            }
+        }
+
+    }
+
 }
 
 /* Mobile devices */
@@ -50,10 +92,19 @@ section#meetOurResources {
 /* Large desktop devices */
 @media only screen and (min-width: 1201px) {
 
+    #containerBgOwli {
+        section#secSubscribe{
+            width: 80%;
+        }
+    }
+
+
     section#secSubscribe {
         height: 100vh;
-        display: flex;
-        flex-direction: column;
+
+        .colHeader {
+            padding: 0;
+        }
 
         #rowSubscribeMain {
             display: flex;
@@ -68,6 +119,22 @@ section#meetOurResources {
                 font-size: 1.9rem;
             }
         }
+    }
+
+    section#meetOurResources {
+        width: 80%;
+
+        h2#meetResourcesTitle {
+            margin: 0;
+            font-size: 2.7em;
+            flex: 0.5;
+        }
+
+        dl#resourceList {
+            flex: 0.5;
+        }
+    
+        margin-bottom: 100px;
     }
 
 }
