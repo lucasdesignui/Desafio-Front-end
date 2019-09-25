@@ -85,6 +85,20 @@ section#meetOurResources {
 
 }
 
+section#secPlans {
+    background-color: $greyBackground;
+
+    .rowPlans {
+        position: relative;
+
+        .colPlans {
+            position: relative;
+            width: 100%;
+            top: -60px;
+        }
+    }
+}
+
 /* Mobile devices */
 @media only screen and (max-width: 600px){}
 
@@ -149,6 +163,14 @@ section#meetOurResources {
             }
         }
     
+    }
+
+    section#secPlans {
+        .colPlans {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
     }
 
 }

@@ -1,0 +1,36 @@
+@charset 'UTF-8';
+@import '~assets/scss/__vars';
+
+.planCardWrapper {
+    background-color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 381px;
+    height: 472px;
+    border: 1px solid grey;
+    float: left;
+    transition: ease-in-out .3s;
+    transition-property: transform, height, width, position, color, box-shadow, background-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    &:hover {
+        // width: 398px;
+        // height: 488px;
+        transform: scale(1.05);
+        border: 2px solid $owliBlue;
+    }
+
+    h4.cardPlanTitle {
+        margin: 0;
+        font-size: 1.78rem;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+
+
+
+}

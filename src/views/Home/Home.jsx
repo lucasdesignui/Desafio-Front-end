@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './home.scss';
 import Header from 'components/Header/Header.jsx';
 import RegistrationForm from 'components/RegistrationForm/RegistrationForm.jsx';
+import PlanCard from 'components/PlanCard/PlanCard.jsx';
 import economyIcon from 'assets/svg/economy.svg';
 import centralizedIcon from 'assets/svg/centralized.svg';
 
@@ -40,6 +41,28 @@ class Home extends Component {
                 resourceName: 'Centralizado'
             }
         ];
+        const indicatedPlans = [
+            {
+                title: 'Plano Indicado',
+                subtitle: 'Recursos ilimitados',
+                price: 145,
+                items: ['Lorem ipsum dolor sit amet', 'Consectetur adipiscing elit'],
+                button: {
+                    icon: null,
+                    text: 'Comprar'
+                }
+            },
+            {
+                title: 'Plano Indicado',
+                subtitle: 'Recursos ilimitados',
+                price: 145,
+                items: ['Lorem ipsum dolor sit amet', 'Consectetur adipiscing elit'],
+                button: {
+                    icon: null,
+                    text: 'Comprar'
+                }
+            }
+        ];
 
         return (
             <>
@@ -74,8 +97,15 @@ class Home extends Component {
                         <ResourcesList resources={resources} />
                     </div>
                 </section>
-                <section className="container" id="secPlans">
+                <section className="container-fluid" id="secPlans">
                     <div className="row rowPlans">
+                        <div className="colPlans">
+                            {
+                                indicatedPlans.map(plan => 
+                                    <PlanCard {...plan} />
+                                )
+                            }
+                        </div>
                     </div>
                     <div className="row rowCarousel">
                     </div>
