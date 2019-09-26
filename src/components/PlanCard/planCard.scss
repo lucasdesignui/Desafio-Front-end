@@ -3,11 +3,10 @@
 
 .planCardWrapper {
     background-color: white;
-    cursor: pointer;
     border-radius: 10px;
     width: 381px;
     height: 472px;
-    border: 1px solid grey;
+    border: 1px solid darken($color: $greyBackground, $amount: 10%);
     float: left;
     transition: ease-in-out .3s;
     transition-property: transform, height, width, position, color, box-shadow, background-color;
@@ -15,17 +14,24 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    box-shadow: 0 19px 30px -9px #b5b5b5;
 
     &:hover {
         // width: 398px;
         // height: 488px;
-        transform: scale(1.05);
+        transform: scale(1.05, 1.035);
         border: 2px solid $owliBlue;
     }
 
     h4.cardPlanTitle {
         margin: 0;
-        font-size: 1.78rem;
+        font-size: 1.9rem;
+    }
+
+    span.subtitleCard {
+        color: darken($color: $greyText, $amount: 10%);
+        font-size: 1.2rem;
+        margin-top: -50px;
     }
 }
 

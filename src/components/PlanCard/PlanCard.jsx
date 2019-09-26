@@ -7,7 +7,7 @@ class PlanCard extends Component {
         return (
             <div className="planCardWrapper">
                 <h4 className="cardPlanTitle">{this.props.title}</h4>
-                <span>{this.props.subtitle}</span>
+                <span className="subtitleCard">{this.props.subtitle}</span>
 
                 <strong className="planPrice">{this.props.price}</strong>
 
