@@ -2,8 +2,24 @@ body {
     background-image: linear-gradient(90deg, #12a0e6, #76d3fe);
 }
 
+.w-110 {
+    width: 110%;
+}
+
+.vh-50 {
+    height: 50vh;
+}
+
 .font-lato {
     font-family: 'Lato', sans-serif;
+}
+
+.font-weight-900 {
+    font-weight: 900;
+}
+
+.font-size-1-7 {
+    font-size: 1.7rem;
 }
 
 .nav-link {
@@ -14,9 +30,89 @@ body {
     font-size: 1.1rem;
 }
 
-@media (min-width: 1200px){
+.form-user-img {
+    background: url(../user.svg) scroll 1rem 0.8rem;
+    background-repeat: no-repeat;
+}
+
+.form-email-img {
+    background: url(../email.svg) scroll 1rem 0.8rem;
+    background-repeat: no-repeat;
+}
+
+.form-phone-img {
+    background: url(../phone.svg) scroll 1rem 0.8rem;
+    background-repeat: no-repeat;
+}
+
+.form-control {
+    font-size: 1.1rem!important;
+}
+
+.form-control-height-3 {
+    height: 3rem!important;
+}
+
+.btn-cadastro {
+    font-size: 1.1rem!important;
+}
+
+@media (max-width: 767.98px) {
+
+    .text-sm-center {
+        text-align: center!important;
+    }
+    
+    .mb-sm-5 {
+        margin-bottom: 3rem;
+    }
+
+    .btn-sm-lock {
+        width: 100%;
+        display:block;
+    }
+
+    .font-size-cadastro-p {
+        font-size: 1.6rem;
+    }
+
+    .recurso-sm-area {
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .recurso-sm-item {
+        text-align: center;
+        width: 100%!important;
+    }
+
+}
+
+@media (min-width: 992px){
     .navbar-nav {
         margin-left: 8rem;
     }
 
+    .cadastro {
+        padding-left: 12rem!important;
+    }
+
+    .font-size-cadastro-p {
+        font-size: 1.7rem;
+    }
+
+    .vh-lg-50 {
+        height: 50vh;
+    }
+
+    .recurso-area {
+        padding: 0 10rem!important;
+    }
+
+    .recurso-item {
+        text-align: center;
+        width: 40%!important;
+    }
+    
 }
